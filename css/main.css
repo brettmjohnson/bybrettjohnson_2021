@@ -97,9 +97,9 @@ body {
   font-family: 'Space Mono', monospace;
   color: var(--dark-gray);
   background-color: var(--white);
-  padding: 4rem 1rem;
   display: grid;
   place-items: center;
+  height: 100vh;
 }
 
 a {
@@ -119,6 +119,8 @@ nav ul {
   display: grid;
   grid-gap: 1rem;
   list-style: none;
+  margin: 0;
+  padding: 4rem 0.75rem 6rem 0.75rem;
 }
 
 /* ==========================================================================
