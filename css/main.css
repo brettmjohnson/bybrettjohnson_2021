@@ -211,9 +211,13 @@ nav ul {
    Modify as content requires.
    ========================================================================== */
 
-/* @media only screen and (min-width: 660px) {
+@media only screen and (min-width: 660px) {
 
-} */
+    .credit-name:before {
+      content:  "..........................";
+    }
+    
+}
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
